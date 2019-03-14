@@ -1,0 +1,68 @@
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin-left: 10%;
+}
+
+hr {
+    border-top: 1px solid;
+    width: 65%;
+    margin-left: 10%;
+}
+
+.main1 {
+    margin-left: 25%;
+    padding: 0px 60px;
+}
+
+.main2 {
+    margin-left: 25%;
+    padding: 0px 60px;
+}
+
+.main3 {
+    margin-left: 25%;
+    padding: 0px 60px;
+}
+
+.main4 {
+    margin-left: 25%;
+    padding: 0px 60px;
+}
+
+@media screen and (max-width:1280px) {
+    .main {
+        margin-top: -123%;
+    }
+}
+
+.skill td,
+th {
+    padding: 20px;
+}
+
+.circlechart {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.circle-content {
+    color: black;
+    float: left;
+    line-height: 1;
+    margin-top: -2.5em;
+    padding-top: 50%;
+    text-align: center;
+    width: 100%;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: 1px black solid;
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}

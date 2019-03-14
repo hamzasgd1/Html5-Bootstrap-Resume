@@ -1,0 +1,115 @@
+body {
+    background-color: #e5e5e5;
+    display: block;
+}
+
+.sidenav {
+    height: 100%;
+    width: 30%;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #151515;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border: 1px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 25%;
+    padding: 0px 60px;
+    margin-top: -78%;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.name {
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3%;
+    font-size: 300%;
+    font-weight: 600;
+}
+
+.lname {
+    display: block;
+    margin-top: -2%;
+}
+
+.des {
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.image {
+    margin-top: 10%;
+    filter: grayscale(100%);
+}
+
+.hone {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 100%;
+    margin-top: 4%;
+    text-align: justify;
+}
+
+.profile {
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    color: white;
+}
+
+.contact-details {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+}
+
+.contact-details .cm {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 100%;
+}
+
+.contact-details .con {
+    margin-left: 16%;
+    margin-top: 30%;
+}
+
+.tab th,
+td {
+    padding: 5px;
+}
+
+.tab th {
+    font-weight: normal;
+}
